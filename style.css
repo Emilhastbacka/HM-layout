@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#left {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+#right {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+#middle {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 13rem;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+#content {
+    display: flex;
+    font-size: 1.2rem;
+}
+#sidebar {
+    width: 30%;
+    height: 100vh;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding-left: 2rem;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+}
+
+#bilder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.bild1 {
+    width: 90%;
+    height: 700px;
+}
+
+.bild2 {
+    width: 90%;
+     height: 700px;
+}
+
+.bild3 {
+    width: 90%;
+     height: 700px;
+}
+
+.bild4 {
+    width: 90%;
+     height: 700px;
+}
+
+.bild5 {
+     height: 700px;
+    width: 90%;
+}
+
+.bild6 {
+     height: 700px;
+    width: 90%;
+}
+
+.bild7 {
+     height: 700px;
+    width: 90%;
+}
+
+.bild8 {
+     height: 700px;
+    width: 90%;
+}
+
+
+.hm-bild {
+    width: 220px;
+    height: 120px;
+}
+
+#jud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.move {
+    margin-bottom: 15px;
+}
+
+#t-shirts {
+    margin-bottom: 100px;
+    padding-left: 3.5rem;
+    margin-top: 60px;
+}
+
+.hoodie {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    #sidebar {
+        display: none;
+    }
+    #right {
+        display: none;
+    }
+    #left {
+        display: none;
+    }
+    #jud {
+        display: none;
+    }
+    .hm-bild {
+        margin-right: 13rem;
+    }
+    .huppari {
+        margin-left: 5rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #sidebar {
+        display: none;
+    }
+    #right { 
+        display: none;
+    }
+    .bort {
+        display: none;
+    }
+    #content {
+        display: flex;
+        margin-right: 2rem;
+        gap: 2rem;
+    }
+    .huppari {
+        margin-left: 8rem;
+    }
+}
+
+
